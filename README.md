@@ -28,3 +28,43 @@ A robust microservice-based notification system built with **ASP.NET Core**, **M
 - **Clean Architecture** principles
 
 ---
+## 📮 Sample Payloads to test 
+
+### 📧 Email
+
+```json
+{
+  "type": "email",
+  "messageId": "123",
+  "templateName": "OtpEmail",
+  "variables": {
+    "UserName": "Hasan",
+    "Otp": "123456",
+    "Ttl": "5",
+    "to": "user@example.com"
+  }
+}
+
+{
+  "type": "email",
+  "messageId": "123",
+  "templateName": "WelcomeEmail",
+  "variables": {
+    "UserName": "Hasan",
+    "to": "user@example.com"
+  }
+}
+
+### 📧 sms
+
+{
+  "type": "sms",
+  "messageId": "123",
+  "templateName": "OtpSms",
+  "variables": {
+    "UserName": "Hasan",
+    "Otp": "123456",
+    "Ttl": "120",
+    "to": "+92314321"
+  }
+}
