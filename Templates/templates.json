@@ -1,0 +1,13 @@
+{
+  "OtpEmail": {
+    "subject": "Your OTP Code",
+    "body": "Hello {UserName}, your OTP is {Otp}. It will expire in {Ttl} seconds."
+  },
+  "WelcomeEmail": {
+    "subject": "Welcome to Our Platform!",
+    "body": "Hi {UserName}, we're glad to have you onboard."
+  },
+  "OtpSms": {
+    "body": "Your OTP is {Otp}. It expires in {Ttl} seconds."
+  }
+}

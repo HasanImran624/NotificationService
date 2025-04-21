@@ -1,0 +1,14 @@
+
+## .NET Core
+bin/
+obj/
+*.user
+
+# Visual Studio Code
+.vscode/
+
+
+# Environment
+.env
+
+
